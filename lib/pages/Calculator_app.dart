@@ -10,6 +10,7 @@ class CalculatorApp extends StatefulWidget {
 class _CalculatorAppState extends State<CalculatorApp> {
   @override
   Widget build(BuildContext context) {
+    bool ism;
     return Scaffold(
       body: Column(
         children: [
